@@ -134,7 +134,7 @@ export default function RoomPage({ params }: { params: Promise<{ roomId: string 
                       ? "Try to blend in! Figure out the word by listening to others." 
                       : "Discuss the word without giving it away to the impostor."}
                   </p>
-                  <Button variant="outline" onClick={handleExpose} className="gap-2 border-2 border-black text-black hover:bg-black hover:text-white font-bold px-8">
+                  <Button onClick={handleExpose} className="gap-2 bg-black text-white hover:bg-black/90 font-bold px-8 border-2 border-black">
                     <Eye className="w-4 h-4" /> Expose Word
                   </Button>
                 </div>
